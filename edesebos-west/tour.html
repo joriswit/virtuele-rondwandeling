@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<HTML lang="nl">
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+    <META http-equiv="Content-Style-Type" content="text/css">
+    <SCRIPT type="text/javascript" src="jquery-1.11.0.min.js"></SCRIPT>
+    <SCRIPT type="text/javascript" src="tour.js"></SCRIPT>
+    <TITLE>Virtuele rondwandeling Edese bos</TITLE>
+    <LINK rel="stylesheet" href="style.css" type="text/css">
+  </HEAD>
+  <BODY>
+<!--    <H1>Virtuele rondwandeling</H1>-->
+    <DIV style="float:right"><A href="./">Startpagina</A><BR>
+      <IMG id="pijl" src="pijlen/pijl2-1.png" alt="">
+    </DIV>
+    <TABLE>
+      <TR>
+        <TD colspan="3" style="text-align:center;"><A id="linkwalkforward" href="#" style="display:none;">Loop vooruit</A><SPAN id="disabledwalkforward">Loop vooruit</SPAN>
+      </TR>
+      <TR>
+        <TD><A id="linkturnleft" href="#" style="display:none;">Links</A><SPAN id="disabledturnleft">Links</SPAN>
+        <TD>
+          <DIV id="photodiv" style="position: relative;overflow:hidden;width:640px;height:480px;">
+            <IMG id="photo1" src="" width="640" height="480" alt="Foto" style="position: absolute;width:640px;height:480px;top:0px;left:0px;">
+            <IMG id="photo2" src="" width="640" height="480" alt="Foto2" style="position: absolute;display:none;width:640px;height:480px;top:0px;left:0px;">
+          </DIV>
+        </TD>
+        <TD><A id="linkturnright" href="#" style="display:none;">Rechts</A><SPAN id="disabledturnright">Rechts</SPAN>
+      </TR>
+      <TR>
+        <TD colspan="3" style="text-align:center;"><A id="linkturnaround" href="#" style="display:none;">Omdraaien</A><SPAN id="disabledturnaround">Omdraaien</SPAN>
+      </TR>
+    </TABLE>
+    <P id="comment">
+    </P>
+  </BODY>
+</HTML>

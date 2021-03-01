@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+.toursummary {
+    float:left; width:40%; min-width:430px;
+}
+.toursummary IMG {
+    float:left; margin-right: 10px; border: solid 1px #ccc;
+}

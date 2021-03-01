@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Virtuele rondwandeling Hoge Veluwe - Interactieve kaart</title>
+    <LINK rel="stylesheet" href="style.css" type="text/css">
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAjIpZw1MjHweDnPB-ILkI6RTYrXBuwLY4XGUKZIpfZzhD4Rb-LxQ7hvPtWDI1WdeFs88jLyYmZ9ma1Q"
+      type="text/javascript"></script>
+    <script type="text/javascript">
+
+    //<![CDATA[
+
+       // Creates a marker at the given point with the given number label
+        function createMarker(point, p) {
+          var icon = new GIcon(G_DEFAULT_ICON, "marker.png");
+          icon.iconSize = new GSize(11, 11);
+          icon.iconAnchor = new GPoint(5, 5);
+          icon.infoWindowAnchor = new GPoint(5, 5);
+          icon.shadow = null;
+          icon.transparent = null;
+          var markerOptions = { icon:icon, title: "Ga naar dit punt" };
+          var marker = new GMarker(point, markerOptions);
+          
+          GEvent.addListener(marker, "click", function() {
+//            marker.openInfoWindowHtml(text);
+            window.location = "tour.php?p=" + p + "&d=1&od=1";
+          });
+          return marker;
+        }
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map"));
+map.disableDoubleClickZoom();
+map.enableScrollWheelZoom();
+map.addControl(new GLargeMapControl());
+//map.addControl(new GMapTypeControl());
+map.addControl(new GHierarchicalMapTypeControl());
+//map.addControl(new GMenuMapTypeControl());
+
+map.setCenter(new GLatLng(52.087101, 5.829964), 13, G_HYBRID_MAP);
+
+map.addOverlay(createMarker(new GLatLng(52.075579, 5.824722), 1));
+map.addOverlay(createMarker(new GLatLng(52.073977, 5.828606), 29));
+map.addOverlay(createMarker(new GLatLng(52.073360, 5.831562), 44));
+map.addOverlay(createMarker(new GLatLng(52.073275, 5.833455), 53));
+map.addOverlay(createMarker(new GLatLng(52.072935, 5.835371), 64));
+map.addOverlay(createMarker(new GLatLng(52.072351, 5.835301), 69));
+map.addOverlay(createMarker(new GLatLng(52.071619, 5.834979), 75));
+map.addOverlay(createMarker(new GLatLng(52.071322, 5.834802), 78));
+map.addOverlay(createMarker(new GLatLng(52.070481, 5.837071), 97));
+map.addOverlay(createMarker(new GLatLng(52.070112, 5.837484), 101));
+map.addOverlay(createMarker(new GLatLng(52.069677, 5.837205), 104));
+map.addOverlay(createMarker(new GLatLng(52.069469, 5.832817), 128));
+map.addOverlay(createMarker(new GLatLng(52.069535, 5.831229), 136));
+map.addOverlay(createMarker(new GLatLng(52.069851, 5.830457), 141));
+map.addOverlay(createMarker(new GLatLng(52.069640, 5.828129), 153));
+map.addOverlay(createMarker(new GLatLng(52.070030, 5.824325), 177));
+map.addOverlay(createMarker(new GLatLng(52.070372, 5.822292), 191));
+map.addOverlay(createMarker(new GLatLng(52.070811, 5.818950), 210));
+map.addOverlay(createMarker(new GLatLng(52.070910, 5.816552), 224));
+map.addOverlay(createMarker(new GLatLng(52.071391, 5.814707), 235));
+map.addOverlay(createMarker(new GLatLng(52.072061, 5.814009), 243));
+map.addOverlay(createMarker(new GLatLng(52.073159, 5.813360), 255));
+map.addOverlay(createMarker(new GLatLng(52.073439, 5.812582), 262));
+map.addOverlay(createMarker(new GLatLng(52.074402, 5.814535), 277));
+map.addOverlay(createMarker(new GLatLng(52.073439, 5.810136), 350));
+map.addOverlay(createMarker(new GLatLng(52.072074, 5.806446), 370));
+map.addOverlay(createMarker(new GLatLng(52.072410, 5.805115), 385));
+map.addOverlay(createMarker(new GLatLng(52.072239, 5.801939), 402));
+map.addOverlay(createMarker(new GLatLng(52.072687, 5.800631), 411));
+map.addOverlay(createMarker(new GLatLng(52.074692, 5.800287), 429));
+map.addOverlay(createMarker(new GLatLng(52.073551, 5.794569), 462));
+map.addOverlay(createMarker(new GLatLng(52.074626, 5.794805), 472));
+map.addOverlay(createMarker(new GLatLng(52.074870, 5.794687), 474));
+map.addOverlay(createMarker(new GLatLng(52.075582, 5.794311), 481));
+map.addOverlay(createMarker(new GLatLng(52.076875, 5.799472), 523));
+map.addOverlay(createMarker(new GLatLng(52.077020, 5.799987), 526));
+map.addOverlay(createMarker(new GLatLng(52.075813, 5.800341), 537));
+map.addOverlay(createMarker(new GLatLng(52.074989, 5.801650), 556));
+map.addOverlay(createMarker(new GLatLng(52.077198, 5.812443), 619));
+
+var polyline = new GPolyline([
+  new GLatLng(52.069677, 5.837205)
+, new GLatLng(52.069469, 5.832817)
+, new GLatLng(52.069535, 5.831229)
+, new GLatLng(52.069851, 5.830457)
+, new GLatLng(52.069640, 5.828129)
+, new GLatLng(52.070030, 5.824325)
+, new GLatLng(52.070372, 5.822292)
+, new GLatLng(52.070811, 5.818950)
+, new GLatLng(52.070910, 5.816552)
+, new GLatLng(52.071391, 5.814707)
+, new GLatLng(52.072061, 5.814009)
+, new GLatLng(52.073159, 5.813360)
+, new GLatLng(52.073439, 5.812582)
+, new GLatLng(52.073439, 5.810136)
+, new GLatLng(52.072074, 5.806446)
+, new GLatLng(52.072410, 5.805115)
+, new GLatLng(52.072239, 5.801939)
+, new GLatLng(52.072687, 5.800631)
+, new GLatLng(52.074692, 5.800287)
+, new GLatLng(52.073551, 5.794569)
+, new GLatLng(52.074626, 5.794805)
+, new GLatLng(52.074870, 5.794687)
+, new GLatLng(52.075582, 5.794311)
+, new GLatLng(52.076875, 5.799472)
+, new GLatLng(52.077020, 5.799987)
+, new GLatLng(52.075813, 5.800341)
+, new GLatLng(52.074989, 5.801650)
+, new GLatLng(52.077198, 5.812443)
+, new GLatLng(52.074402, 5.814535)
+, new GLatLng(52.075579, 5.824722)
+, new GLatLng(52.073977, 5.828606)
+, new GLatLng(52.073360, 5.831562)
+, new GLatLng(52.073275, 5.833455)
+, new GLatLng(52.072935, 5.835371)
+, new GLatLng(52.072351, 5.835301)
+, new GLatLng(52.071619, 5.834979)
+, new GLatLng(52.071322, 5.834802)
+, new GLatLng(52.070481, 5.837071)
+, new GLatLng(52.070112, 5.837484)
+], "#00FF00", 5);
+map.addOverlay(polyline);
+
+//GEvent.addListener(map, "moveend", function() {
+//  var center = map.getCenter();
+//  document.getElementById("message").innerHTML = center.toString();
+//});
+
+      }
+    }
+
+    //]]>
+    </script>
+  </head>
+  <body onload="load()" onunload="GUnload()">
+    <h1>Virtuele rondwandeling Hoge Veluwe - Interactieve kaart</h1>
+    <div id="map" style="width: 800px; height: 600px"></div>
+    <div id="message"></div>
+    <div>Klik op een van de punten om naar dat punt in de virtuele rondwandeling te gaan.</div>
+    <div><a href="./">Terug naar startpagina</a></div>
+  </body>
+</html>
