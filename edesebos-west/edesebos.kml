@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>Edese bos</name>
+    <description>Wandelingen in het Edese bos</description>
+    <Style id="redLine">
+      <LineStyle>
+        <color>7d0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="greenLine">
+      <LineStyle>
+        <color>7d00ff00</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Placemark id="markerHuizeKernhem">
+      <name>Huize Kernhem</name>
+      <description>
+        <![CDATA[
+          <a href="tour.html?p=769&d=3&od=1">Klik hier om naar dit punt te gaan</a>
+        ]]>
+      </description>
+      <Point>
+        <coordinates>5.657283,52.052801</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="markerDoesburgermolen">
+      <name>Doesburgermolen</name>
+      <description>
+        <![CDATA[
+          <a href="tour.html?p=409&d=2&od=1">Klik hier om naar dit punt te gaan</a>
+        ]]>
+      </description>
+      <Point>
+        <coordinates>5.648823,52.062056</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="markerMonument">
+      <name>Monument eerste motorvlucht boven Nederland door een Nederlander</name>
+      <description>
+        <![CDATA[
+          <a href="tour.html?p=985&d=2&od=1">Klik hier om naar dit punt te gaan</a>
+        ]]>
+      </description>
+      <Point>
+        <coordinates>5.677356,52.068480</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="markerBloedsteen">
+      <name>Bloedsteen</name>
+      <description>
+        <![CDATA[
+          <a href="tour.html?p=83&d=1&od=3">Klik hier om naar dit punt te gaan</a>
+        ]]>
+      </description>
+      <Point>
+        <coordinates>5.674471,52.055644</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="markerRodeRoute">
+      <name>Rode route</name>
+      <styleUrl>#redLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+5.657197,52.053427,0
+5.657798,52.052939,0
+5.667121,52.054482,0
+5.671927,52.055228,0
+5.675210,52.055782,0
+5.675886,52.057689,0
+5.674084,52.059278,0
+5.670983,52.058803,0
+5.667743,52.057649,0
+5.664771,52.057336,0
+5.662148,52.059170,0
+5.660083,52.060519,0
+5.658903,52.061330,0
+5.657765,52.061119,0
+5.656532,52.061686,0
+5.655813,52.061515,0
+5.654718,52.062821,0
+5.650513,52.061581,0
+5.649397,52.061950,0
+5.648463,52.061838,0
+5.649027,52.060944,0
+5.650175,52.059381,0
+5.652696,52.056989,0
+5.654257,52.054885,0
+5.652830,52.054271,0
+5.652294,52.052094,0
+5.653023,52.051019,0
+5.653603,52.051448,0
+5.653163,52.052213,0
+5.656660,52.052774,0
+5.656435,52.053090,0
+5.656950,52.053374,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark id="markerGroeneRoute">
+      <name>Groene route</name>
+      <styleUrl>#greenLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+5.688310,52.066290,0
+5.682946,52.063289,0
+5.683643,52.062807,0
+5.678311,52.057781,0
+5.677217,52.058454,0
+5.675886,52.057689,0
+5.674084,52.059278,0
+5.673794,52.059918,0
+5.674996,52.060288,0
+5.674256,52.062207,0
+5.671799,52.061884,0
+5.670554,52.061950,0
+5.671155,52.063071,0
+5.669803,52.066640,0
+5.671734,52.067134,0
+5.672056,52.065802,0
+5.674191,52.065809,0
+5.675607,52.066026,0
+5.676273,52.068255,0
+5.677303,52.068513,0
+5.679159,52.066686,0
+5.680167,52.067794,0
+5.683279,52.066092,0
+5.686626,52.067174,0
+5.688192,52.066349,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

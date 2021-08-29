@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>Sysselt</name>
+    <description>Wandelingen in de Sysselt</description>
+    <Style id="point">
+      <IconStyle>
+        <Icon><href>marker.png</href></Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.00000000001</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="redLine">
+      <LineStyle>
+        <color>7d0000ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Placemark id="point1">
+      <name>Point 1</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.680205,52.034191,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point5">
+      <name>Point 5</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.680725,52.034237,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point11">
+      <name>Point 11</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.681642,52.03433,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point16">
+      <name>Point 16</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.682463,52.034435,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point21">
+      <name>Point 21</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.683305,52.034584,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point27">
+      <name>Point 27</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.68426,52.034818,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point59">
+      <name>Point 59</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.690075,52.034633,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point72">
+      <name>Point 72</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.692377,52.034455,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point75">
+      <name>Point 75</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.692441,52.03427,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point82">
+      <name>Point 82</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.692822,52.033435,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point93">
+      <name>Point 93</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.693047,52.032261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point107">
+      <name>Point 107</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.69169,52.031049,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point114">
+      <name>Point 114</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.690939,52.030426,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point120">
+      <name>Point 120</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.690467,52.029954,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point133">
+      <name>Point 133</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.68934,52.028699,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point135">
+      <name>Point 135</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.689179,52.028534,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point141">
+      <name>Point 141</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.688536,52.028006,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point151">
+      <name>Point 151</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.687659,52.027135,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point162">
+      <name>Point 162</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.686706,52.02606,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point169">
+      <name>Point 169</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.685296,52.02632,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point174">
+      <name>Point 174</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.684566,52.026438,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point180">
+      <name>Point 180</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.683474,52.026628,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point186">
+      <name>Point 186</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.682511,52.026782,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point209">
+      <name>Point 209</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.681294,52.029152,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point216">
+      <name>Point 216</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.681079,52.029825,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point239">
+      <name>Point 239</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.680559,52.032297,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point247">
+      <name>Point 247</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.680333,52.033148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point257">
+      <name>Point 257</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.680741,52.034193,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point266">
+      <name>Point 266</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.68043,52.033165,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point269">
+      <name>Point 269</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.680977,52.033244,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point274">
+      <name>Point 274</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.681777,52.033353,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point275">
+      <name>Point 275</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.681846,52.033353,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point280">
+      <name>Point 280</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.68271,52.033462,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point286">
+      <name>Point 286</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.683633,52.033571,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point295">
+      <name>Point 295</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.685102,52.033772,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point301">
+      <name>Point 301</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.686191,52.033904,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point312">
+      <name>Point 312</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.684882,52.034557,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point375">
+      <name>Point 375</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.689995,52.034406,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point398">
+      <name>Point 398</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.689802,52.033703,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point403">
+      <name>Point 403</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.690499,52.03361,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point410">
+      <name>Point 410</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.691508,52.033511,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point414">
+      <name>Point 414</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.692119,52.033491,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point466">
+      <name>Point 466</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.692065,52.03229,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point470">
+      <name>Point 470</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.691454,52.032297,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point478">
+      <name>Point 478</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.690306,52.032409,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point484">
+      <name>Point 484</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.689399,52.032561,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point489">
+      <name>Point 489</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.688621,52.032802,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point499">
+      <name>Point 499</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.687355,52.033376,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point517">
+      <name>Point 517</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.680688,52.03231,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point526">
+      <name>Point 526</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.682039,52.032501,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point530">
+      <name>Point 530</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.682608,52.032564,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point547">
+      <name>Point 547</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.685344,52.03301,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point570">
+      <name>Point 570</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.686964,52.032445,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point578">
+      <name>Point 578</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.685564,52.032244,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point594">
+      <name>Point 594</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.682989,52.031815,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point595">
+      <name>Point 595</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.682828,52.031792,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point602">
+      <name>Point 602</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.681734,52.031703,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point662">
+      <name>Point 662</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.6833,52.031036,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point678">
+      <name>Point 678</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.685757,52.031538,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point729">
+      <name>Point 729</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.687785,52.029993,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point736">
+      <name>Point 736</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.688048,52.029188,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point761">
+      <name>Point 761</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.687506,52.028188,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point767">
+      <name>Point 767</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.68639,52.028396,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point774">
+      <name>Point 774</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.685446,52.028567,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point782">
+      <name>Point 782</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.683954,52.028746,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point783">
+      <name>Point 783</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.683665,52.028792,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point789">
+      <name>Point 789</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.68278,52.028934,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point796">
+      <name>Point 796</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.681444,52.029135,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point806">
+      <name>Point 806</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.681943,52.028115,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point813">
+      <name>Point 813</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.683107,52.027887,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point820">
+      <name>Point 820</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.684158,52.027711,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point856">
+      <name>Point 856</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.683804,52.02928,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point858">
+      <name>Point 858</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.683853,52.029488,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point865">
+      <name>Point 865</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.6836,52.030204,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point900">
+      <name>Point 900</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.68595,52.030647,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point926">
+      <name>Point 926</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.689909,52.031901,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point936">
+      <name>Point 936</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.690134,52.031835,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point940">
+      <name>Point 940</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.690322,52.031478,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point950">
+      <name>Point 950</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.68904,52.030706,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point970">
+      <name>Point 970</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.6861,52.030086,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point996">
+      <name>Point 996</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.686208,52.029254,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1014">
+      <name>Point 1014</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.685499,52.027472,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1016">
+      <name>Point 1016</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.685593,52.02746,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1106">
+      <name>Point 1106</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.695434,52.033148,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1113">
+      <name>Point 1113</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.695735,52.032633,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1114">
+      <name>Point 1114</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.695778,52.032534,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1121">
+      <name>Point 1121</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.694603,52.031973,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1122">
+      <name>Point 1122</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.69449,52.032,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1124">
+      <name>Point 1124</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.694313,52.031805,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1128">
+      <name>Point 1128</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.694603,52.031591,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1157">
+      <name>Point 1157</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.692886,52.029927,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1165">
+      <name>Point 1165</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.694104,52.029577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1182">
+      <name>Point 1182</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.696808,52.028831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1189">
+      <name>Point 1189</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.696121,52.028237,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1198">
+      <name>Point 1198</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.695112,52.027544,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1206">
+      <name>Point 1206</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.694211,52.026792,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1277">
+      <name>Point 1277</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.69272,52.034614,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="point1281">
+      <name>Point 1281</name>
+      <styleUrl>#point</styleUrl>
+      <Point>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.692291,52.034752,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="route1">
+      <name>Route 1</name>
+      <styleUrl>#redLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>5.680725,52.034237,0
+5.681642,52.03433,0
+5.682463,52.034435,0
+5.683305,52.034584,0
+5.68426,52.034818,0
+5.68426,52.034818,0
+5.684882,52.034557,0
+5.689995,52.034406,0
+5.689995,52.034406,0
+5.689802,52.033703,0
+5.689802,52.033703,0
+5.690499,52.03361,0
+5.691508,52.033511,0
+5.692119,52.033491,0
+5.692822,52.033435,0
+5.692822,52.033435,0
+5.692441,52.03427,0
+5.692377,52.034455,0
+5.692377,52.034455,0
+5.69272,52.034614,0
+5.69272,52.034614,0
+5.695434,52.033148,0
+5.695735,52.032633,0
+5.695778,52.032534,0
+5.695778,52.032534,0
+5.694603,52.031973,0
+5.694603,52.031973,0
+5.69449,52.032,0
+5.69449,52.032,0
+5.694313,52.031805,0
+5.694313,52.031805,0
+5.694603,52.031591,0
+5.694603,52.031591,0
+5.692886,52.029927,0
+5.692886,52.029927,0
+5.694104,52.029577,0
+5.696808,52.028831,0
+5.696808,52.028831,0
+5.696121,52.028237,0
+5.695112,52.027544,0
+5.694211,52.026792,0
+5.694211,52.026792,0
+5.688536,52.028006,0
+5.687506,52.028188,0
+5.687506,52.028188,0
+5.688048,52.029188,0
+5.688048,52.029188,0
+5.687785,52.029993,0
+5.68904,52.030706,0
+5.690322,52.031478,0
+5.690134,52.031835,0
+5.690134,52.031835,0
+5.690306,52.032409,0
+5.690306,52.032409,0
+5.689399,52.032561,0
+5.688621,52.032802,0
+5.688621,52.032802,0
+5.686964,52.032445,0
+5.685564,52.032244,0
+5.682989,52.031815,0
+5.682828,52.031792,0
+5.682828,52.031792,0
+5.682608,52.032564,0
+5.682608,52.032564,0
+5.682039,52.032501,0
+5.680688,52.03231,0
+5.680688,52.03231,0
+5.68043,52.033165,0
+5.68043,52.033165,0
+5.680977,52.033244,0
+5.680977,52.033244,0
+5.680741,52.034193,0
+</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

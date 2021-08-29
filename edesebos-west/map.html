@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Virtuele rondwandeling Edese bos - Interactieve kaart</title>
+    <style>
+      @import url("popup.css");
+      #map {
+        width: 90%;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Virtuele rondwandeling Edese bos - Interactieve kaart</h1>
+    <div id="map"></div>
+    <div id="popup" class="ol-popup">
+      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+      <div id="popup-content"></div>
+    </div>
+    <script src="./map.bundle.js"></script>
+    <div>Klik op een van de pins om naar dat punt in de virtuele rondwandeling te gaan. De twee wandelroutes zijn ook in deze kaart aangegeven door middel van een rode en een groene lijn.</div>
+    <div><a href="./">Terug naar startpagina</a></div>
+  </body>
+</html>
